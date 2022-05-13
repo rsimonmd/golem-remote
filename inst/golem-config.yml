@@ -1,0 +1,14 @@
+default:
+  golem_name: mygolem
+  golem_version: 0.0.0.9000
+  app_prod: no
+  default_programs: !expr c(1:10000)
+  db_name: "inst/dev.sqlite"
+dev:
+  golem_wd: !expr here::here()
+  default_programs: !expr c(1:10000)
+  db_name: "inst/dev.sqlite"
+production:
+  default_programs: !expr c();
+  db_name: "inst/dev.sqlite"
+  app_prod: yes

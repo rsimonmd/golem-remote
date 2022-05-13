@@ -1,0 +1,20 @@
+Package: remotetblworkshop
+Title: Un titre
+Version: 0.0.0.9000
+Authors@R: 
+    person("Moi", "Moimoi", , "AUTHOR@MAIL.COM", role = c("cre", "aut"))
+Description: Une desc.
+License: What license is it under?
+Imports: 
+    config (>= 0.3.1),
+    DBI,
+    dbplyr,
+    dplyr,
+    glue,
+    golem (>= 0.3.2),
+    pool,
+    RSQLite,
+    shiny (>= 1.7.1)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2

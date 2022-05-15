@@ -3,6 +3,7 @@
 #' @description A fct function
 #'
 #' @importFrom pool dbPool
+#' @importFrom RSQLite SQLite
 #'
 #' @noRd
 con <-
